@@ -3,6 +3,8 @@ body {
   }
 
   h1 {
+    font-family: Helvetica;
+    font-size: 5rem;
     color: black;
     text-align: center;
   }
@@ -10,4 +12,6 @@ body {
   p {
     font-family: Helvetica;
     font-size: 3.75rem;
+    color: black;
+    text-align: center;
   }
