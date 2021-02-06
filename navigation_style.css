@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Swis';
+    src: url('Swiss721ExtendedBT.ttf') format('truetype');
+}
+
+.topnav a {
+    font-family:'Swis';
+    float: right;
+    color: black;
+    text-align: center;
+    padding-top: 2% ;
+    padding-right: 2% ;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    text-decoration: line-through;
+  }

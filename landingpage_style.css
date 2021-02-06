@@ -1,0 +1,41 @@
+body {
+    background-color:#F0CFCF;
+    font-family:'Swis', sans-serif;
+  }
+
+  @font-face {
+    font-family: 'Swis';
+    src: url('Swiss721ExtendedBT.ttf') format('truetype');
+}
+
+  h1 {
+    font-family: 'Swis';
+    font-weight:200;
+    font-size: 5.5rem;
+    color: black;
+    text-align: left;
+  }
+
+  h1:hover {
+    text-decoration: underline;
+  }
+  
+  .centeredcontent{
+    position: absolute;
+    width:auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dot {
+    z-index: -1;
+    height: 10vw;
+    width: 10vw;
+    background-color:#E6FE76;
+    border-radius: 50%;
+    position: absolute;
+    left: 110%;
+    top: 90%;
+    transform: translate(-110%, -90%);
+  }
